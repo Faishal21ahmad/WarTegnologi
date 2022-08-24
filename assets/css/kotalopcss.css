@@ -1,0 +1,166 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans', sans-serif;
+    background-color: #EEEEEE;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.logo img {
+    float: left;
+    padding: 13px;
+    width: 106px;
+}
+
+.menu {
+    float: right;
+}
+
+.minu {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 60px;
+    position: absolute;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #EEEEEE;
+    z-index: 20;
+    box-shadow: 1px 0px 4px 1px gray;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover {
+    float: left;
+    height: 60px;
+    background-color: #ffff;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 13px 0px 13px;
+    text-decoration: none;
+}
+
+.utama {
+    padding: 200px 0px 200px 0px;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.utama p img {
+    width: 55px;
+    margin-bottom: -5px;
+}
+
+#lislogo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    background-color: none;
+}
+
+#logom {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1.3893%;
+}
+
+#logom img {
+    width: 100px;
+    display: inline-block;
+    *display: inline;
+    transition: 200ms;
+}
+
+#logom img:hover {
+    transform: scale(111%);
+    transition: 200ms;
+}
+
+.isi {
+    background-color: #476072;
+    padding: 50px 0PX 400px 0px;
+    padding: 5%;
+}
+
+#papanlis {
+    list-style: none;
+    background-color: none;
+}
+
+
+.kotak {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 180px;
+    height: 300px;
+    background-color: #ffff;
+    border-radius: 7px;
+    margin: 0.7%;
+    transition: 200ms;
+}
+
+.kotak:hover {
+    background-color: #ffff;
+    border-radius: 7px;
+    transition: 200ms;
+    transform: scale(107%);
+    margin: 0.7%;
+    transition: 200ms;
+}
+
+.kotak img {
+    width: 180px;
+    padding: 4%;
+}
+
+.kotak p {
+    text-align: center;
+    color: black;
+}
+
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    margin-top: 1px;
+    background-color: #EEEEEE;
+    box-shadow: 4px 4px 4px 4px gray;
+}
